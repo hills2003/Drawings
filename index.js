@@ -1,7 +1,4 @@
-var cols;
-function color(e){
-     alert(this.value);
-}
+
 draw.addEventListener(`pointermove`,beginpaint);
 function beginpaint(e){
     const div=document.createElement('div');
